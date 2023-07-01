@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio-sairaju</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Font+Name&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <script src="https://kit.fontawesome.com/f03ad267e4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    body {
+      background-color: black;
+      font-family: "Poppins", sans-serif;
+      color: white;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+      padding: 10px 20px;
+      border-radius: 10px;
+      transition: color 0.3s, background-color 0.3s;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+      background-color: white;
+      color: black;
+
+      .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        transition: top 0.3s;
+      }
+
+      .navbar.hidden {
+        top: -100px;
+      }
+
+      .navbar-nav .nav-item .nav-link:hover {
+        color: white;
+      }
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home"><i class="bi bi-file-person-fill"></i> Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav ">
+        <ul class="navbar-nav nav-underline nav-pills ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="bannerbgimage" id="home">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="com-md-12 bannertext">
+          <p class="hey">Hey,</p>
+          <h1 class="bannertitile">I'm Sai Raju</h1>
+          <p class="bannerdisc">Web Designer | Programmer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="aboutimage">
+            <img src="/portfolio site/images/men.jpg" alt="About Me Image">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h1 class="subtitle">About Me</h1>
+          <div class="aboutcontent">
+            <p>
+              I'm K. Jyothi Sai Raju, currently pursuing my Bachelor of Technology (B.Tech) degree in Computer Science
+              and Engineering at N.B.K.r ist college.
+              I have a strong passion for technology and programming. Throughout my academic journey, I have gained
+              valuable knowledge and skills in various programming
+              languages, web development.In addition to web development, I have developed a keen interest in machine
+              learning. I have been learning and experimenting
+              with machine learning algorithms, data preprocessing, and model training. I believe machine learning holds
+              immense potential in solving real-world problems and I'm excited to contribute to this field.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('certificates')">Certificates</p>
+              <p class="tab-links" onclick="opentab('internships')">Internships</p>
+            </div>
+            <div class="tab-contents-container">
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li> <img src="https://img.icons8.com/color/30/000000/python--v1.png" /> Python programming</li>
+                  <li> <img src="/portfolio site/images/machine-learning.png" class="icon" /> Machine learning</li>
+                  <li> <img src="/portfolio site/images/sql-server.png" class="icon" /> SQL</li>
+                  <li><img src="https://img.icons8.com/color/30/000000/html-5--v1.png" /> Frontend development</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="certificates">
+                <ul>
+                  <li><span>Google</span><br>Python</li>
+                  <li><span>1Stop</span><br>Machine learning</li>
+                  <li><span>NPTEL</span><br>Graph theory</li>
+                  <li><span>Stark foundation</span><br>Frontend development</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="internships">
+                <ul>
+                  <li><span>1Stop</span><br>Machine learning</li>
+                  <li><span>Stark foundation</span><br>Frontend development</li>
+                  <li><span>Apskill</span><br>Web development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="education" id="education">
+    <h2 class="text-center educen" style="margin-top: 40px">Education</h2>
+    <div class="row">
+      <div class="col-md-7">
+        <div class="educationtext" style="margin-top: 50px;">
+          <h2>N.B.K.R institute of science and technology</h2>
+          <p>
+            Bachelor of Technology-Computer Science and Engineering<br />CGPA:
+            7.5 (TILL DATE)
+          </p>
+          <br /><br>
+          <h2>Govt polytechnic sathyavedu</h2>
+          <p>
+            Diploma in electronic communication and engineering<br />Percentage:
+            80.53
+          </p>
+          <br /><br>
+          <h2>Padmavathi Vidhyalaya School</h2>
+          <p>10th CBSE<br />CGPA: 7.0</p>
+        </div>
+      </div>
+      <div class="col-md-5 d-flex align-items-center justify-content-center">
+        <div class="educationimage">
+          <img src=" /portfolio site/images/edu1.png" alt="Education Image"
+            style="max-height: 700px; max-width: 500px" />
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="portfolio" id="portfolio">
+    <h1 class="text-center ptitle">Project's</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card bg-dark text-white">
+            <img src="/portfolio site/images/weaater.png" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Weather Application</h5>
+              <p class="card-text">This website serves as a comprehensive weather reporting system, providing accurate
+                and up-to-date information on temperature, humidity, maximum and minimum wind speed, weather forecasts,
+                and the ability to access weather reports for any desired location</p>
+              <a href="https://sairaju-9.github.io/Weather-application/" class="btn btn btn-outline-light mt-3">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-white">
+            <img src="/portfolio site/images/portfolio.png" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Portfolio</h5>
+              <p class="card-text">Welcome to my portfolio site! This platform serves as a curated collection of my
+                professional accomplishments, skills, projects, internships, and more. It offers a glimpse into my
+                expertise and showcases the diverse range of work I have undertaken throughout my journey in the field.
+              </p>
+              <a href="" class="btn btn btn-outline-light mt-3">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-white">
+            <img src="/portfolio site/images/bank.avif" class="card-img-top" alt="Image 3">
+            <div class="card-body ">
+              <h5 class="card-title fw-bold">Banking Website</h5>
+              <p class="card-text">Introducing an web application facilitating seamless user transactions. This
+                platform enables secure fund transfers between multiple accounts, providing comprehensive
+                access to customer data and transaction history. Experience convenience and transparency in financial
+                interactions.</p>
+              <a href="https://github.com/Sairaju-9/simple-banking-website"
+                class="btn btn btn-outline-light mt-3">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4 ">
+          <div class="card bg-dark text-white">
+            <img src="/portfolio site/images/sound.png" class="card-img-top" alt="Image 4">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Wireless Sound Control</h5>
+              <p class="card-text">Experience the Wireless Sound Control System using Camera, a cutting-edge solution
+                for hands-free volume control of your computer's audio. Utilizing advanced hand gesture recognition,
+                effortlessly adjust volume levels with precision and ease.</p>
+              <a href="https://github.com/Sairaju-9/wireless_sound_control"
+                class="btn btn btn-outline-light mt-3">View</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-white">
+            <img src="/portfolio site/images/car.jpeg" class="card-img-top" alt="Image 5">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Driving Dataset Analysis</h5>
+              <p class="card-text">This code analyzes a driving dataset, examining the distribution of angle values
+                through a histogram plot. It calculates the mean angle value and evaluates the mean squared error,
+                providing valuable insights into driving patterns.</p>
+              <a href="https://github.com/Sairaju-9/self-driving-car" class="btn btn btn-outline-light mt-3">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-dark text-white">
+            <img src="/portfolio site/images/restaurant.jpeg" class="card-img-top" alt="Image 6">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Restaurant Review System</h5>
+              <p class="card-text">This performs sentiment analysis on a restaurant review dataset using a Naive
+                Bayes classifier. It preprocesses the text data, creates a bag-of-words representation, trains the
+                classifier, and evaluates its performance with a confusion matrix and accuracy score.</p>
+              <a href="https://colab.research.google.com/drive/1VG2ptwJmRfOZp1xzG1-vowsD7qAy5xgf?usp=drive_link"
+                class="btn btn btn-outline-light mt-3">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="aboutimage">
+            <img src="/portfolio site/images/contactpic.jpg" alt="About Me Image">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <h1 class="subtitle">Contact Me</h1>
+          <div class="linkscontact">
+            <p>
+              <a href="mailto:jyothisairaju999@gmail.com" class="btn btn-outline-light me-2 my-2">Email Me</a><br>
+              <a href="https://www.linkedin.com/in/jyothisairaju-karuparthy-591a20244/" class="btn btn-primary my-2 me-2" target="_blank"><i
+                  class="fab fa-linkedin"></i> LinkedIn</a><br>
+              <a href="https://github.com/Sairaju-9" class="btn btn-outline-light gray-button my-2 me-2"
+                target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
+              <a href="https://www.instagram.com/sai_raj_since_2000/" class="btn btn-warning my-2 me-2"
+                target="_blank"><i class="fab fa-instagram"></i> Instagram</a><br>
+              <a href="https://www.facebook.com/profile.php?id=100006205756270" class="btn btn-primary my-2 me-2"
+                target="_blank"><i class="fa-brands fa-facebook"></i>
+                Facebook</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 Portfolio. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

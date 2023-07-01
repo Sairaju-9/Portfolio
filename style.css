@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+.navbar {
+    background-color: transparent !important;
+  }
+  
+.bannerbgimage{
+    height: 100vh;
+    background: url('images/laptop.jpg');
+    background-size: cover;
+    position: relative;
+}
+.bannertext{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.hey{
+    font-size: 2rem;
+    margin-bottom: 0%;
+    padding-right: 36%;
+}
+.bannertitile{
+    font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(120deg, #2b50e3, #ea29f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bannerdisc{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.bannerdetail{
+    width: 50%;
+    height: auto;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+.education {
+    background-color: #070707;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.education h2,
+.education p {
+    color: white;
+    /* margin-bottom: 1em; */
+}
+.educationtext{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.educationimage{
+    margin-right: 60px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#about{
+    padding: 20px;
+}
+.aboutimage img {
+    max-width: 90%;
+    height: 70%;
+    margin-top: 40px;
+    border-radius: 15px;
+  }
+.aboutcontent{
+    margin-top: 40px;
+    margin-top: 1%;
+}
+
+.subtitle{
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0%;
+}
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+    margin-bottom: 0%;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #2b50e3;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+
+}
+.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    font-size: 14px;
+    color: #2b50e3;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+}
+.tab-contents-container{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+.icon {
+    width: 24px; /* Set the desired width */
+    height: 24px; /* Set the desired height */
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.ptitle{
+    margin-top: 0%;
+    margin-bottom: 40px;
+}  
+.linkscontact{
+    margin-top: 40px;
+}
+.educen{
+    font-size: 40px;
+}
