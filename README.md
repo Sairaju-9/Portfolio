@@ -9,4 +9,4 @@ This Portfolio Site was built using the following technologies:
 + JavaScript
 - Bootstrap
 
-#check out the URL: [LINK](https://sairaju-9.github.io/Portfolio/)
+# check out the URL: [LINK](https://sairaju-9.github.io/Portfolio/).
