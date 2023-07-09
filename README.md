@@ -7,3 +7,4 @@ This Portfolio Site was built using the following technologies:
 - HTML
 * CSS
 + JavaScript
+- Bootstrap
