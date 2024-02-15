@@ -3,6 +3,30 @@
     padding: 0%;
     /* box-sizing: border-box; */
 }
+::-webkit-scrollbar {
+    width: 7px; /* Width of the scrollbar */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:   transparent; /* Background color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Color of the thumb */
+    border-radius: 5px; /* Border radius of the thumb */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; /* Color of the thumb on hover */
+  }
+  
+.body {
+overflow-y: scroll;
+}  
+
 .navbar {
     background-color: transparent !important;
   }
